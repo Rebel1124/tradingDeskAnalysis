@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+st.set_page_config(layout="wide")
 
 @st.cache_data
 def varMetrics(df, percentile=0.005):
